@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Index | Saisons{% endblock %}
+
+{% block header %}
+<div class="header bg-lightgray ">
+<div class="col-md-4 mx-auto">
+<h1 class="text-center">Le cycle des saisons</h1>
+</div>
+</div>
+
+<div class="header mx-auto text-center">
+<a href="{{path("saison", {"saison": "printemps"})}}" class="btn printemp">Printemps</a>
+<a href="{{path("saison", {"saison": "ete"})}}" class="btn ete">Ete</a>
+<a href="{{path("saison", {"saison": "automne"})}}" class="btn automne">Automne</a>
+<a href="{{path("saison", {"saison": "hiver"})}}" class="btn hiver">Hiver</a>
+</div>
+<hr>
+
+{% endblock %}
+
+{% block body %}
+
+{% endblock %}

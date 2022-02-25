@@ -1,0 +1,37 @@
+.bg-lightgray {
+  background-color: rgb(233, 233, 233);
+}
+.btn {
+  width: 150px;
+  margin: 20px;
+}
+.header {
+  height: 60px;
+  justify-content: center;
+}
+
+.printemp {
+  background-color: #deb1bc;
+}
+.ete {
+  background-color: #84aec9;
+}
+.automne {
+  background-color: #c76304;
+}
+.hiver {
+  background-color: #ececec;
+}
+
+#printemps {
+  background-color: #deb1bc;
+}
+#ete {
+  background-color: #84aec9;
+}
+#automne {
+  background-color: #c76304;
+}
+#hiver {
+  background-color: #ececec;
+}

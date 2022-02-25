@@ -1,0 +1,24 @@
+{% extends 'index/index.html.twig' %}
+
+{% block title %}{{saison}}{% endblock %}
+
+
+{% block body %}
+<div class="text-center" id="{{saison}}">
+    <img src="{{asset("images/")}}{{saison}}.jpg" alt="">
+</div>
+<br>
+<div>
+    {% if saison == "hiver" %}
+        <p class="text-center">{{hiver}}</p>
+    {% elseif saison == "printemps" %}
+        <p class="text-center">{{printemps}}</p>
+    {% elseif saison == "ete" %}
+        <p class="text-center">{{ete}}</p>
+    {% elseif saison == "automne" %}
+        <p class="text-center">{{automne}}</p>
+    {% else %}
+        <p class="text-center">Oops cette saison n'existe pas</p>
+    {% endif %}
+</div>
+{% endblock %}
